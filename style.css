@@ -1,0 +1,175 @@
+.custom-body {
+    background-color: #FAF1E4;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.top-container {
+    background-color: #CEDEBD;
+    position: relative;
+    padding-top: 100px;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    border-bottom: 50px solid #CEDEBD;
+    width: 100%;
+    height: 100%;
+
+}
+
+.custom-h1 {
+    font-family: 'Corben', cursive;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-weight: bold;
+
+}
+
+.custom-h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin: 50px auto 0 auto;
+    color: #435334;
+}
+
+.custom-h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.custom-p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.custom-ul {
+    list-style-type: circle;
+}
+
+.custom-hr {
+    border: inset #CEDEBD 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+.title-text {
+    margin: 20px;
+}
+
+.custom-img {
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+.top-gear-img {
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.top-building-img {
+    position: absolute;
+    left: 5%;
+    top: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.bottom-keyboard-img {
+    position: absolute;
+    left: 5%;
+    bottom: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.bottom-terminal-img {
+    position: absolute;
+    right: 5%;
+    bottom: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.middle-container {
+    background-color: #9EB384;
+    position: relative;
+    padding-top: 100px;
+    margin: 0 auto;
+    padding: 100px 0 100px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img {
+    width: 200px;
+    border: solid 5px #FAF1E4;
+    border-radius: 50%;
+}
+
+.about-me {
+    width: 55%;
+    margin: auto;
+}
+
+.skills-grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    gap: 2rem;
+}
+
+.skills-grid-container img {
+    width: 150px;
+    border-radius: 10%;
+}
+
+.prog-lang-img-size {
+    height: 130px;
+}
+
+.web-dev-img-size {
+    height: 130px;
+}
+
+.databases-img-size {
+    height: 130px;
+}
+
+.os-img-size {
+    height: 130px;
+}
+
+.data-analysis-img-size {
+    height: 130px;
+}
+
+.tools-img-size {
+    height: 130px;
+}
+
+.contact-message {
+    width: 60%;
+    margin: auto;
+}
+
+.contact-button {
+    display: block;
+    margin: 35px auto;
+    font-size: 24px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: #FAF1E4;
+    color: #435334;
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
